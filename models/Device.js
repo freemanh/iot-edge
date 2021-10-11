@@ -6,9 +6,13 @@ const schema = new Schema({
     props: [{
         name: String,
         unit: String,
+        updatedAt: Date,
+        value: Number,
+        ratio: Number,
         extra: Map
     }],
-    driverId: ObjectId
+    config: Map,
+    driverId: String
 });
 
 module.exports = mongoose.model('Device', schema)
