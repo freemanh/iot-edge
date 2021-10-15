@@ -3,5 +3,9 @@ module.exports.DriverType = {
 }
 
 module.exports.RegisterType = {
-    
+
+}
+
+module.exports.DeviceStatus = {
+    ONLINE: 'online', OFFLINE: 'offline', UNACTIVATED: 'unactivated'
 }

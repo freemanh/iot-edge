@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "nodemon ./bin/www"
+    "start": "nodemon ./bin/www",
+    "test": "mocha"
   },
   "dependencies": {
     "bacstack": "0.0.1-beta.14",
@@ -13,5 +14,8 @@
     "modbus-serial": "^8.0.4",
     "mongoose": "^6.0.10",
     "morgan": "~1.9.1"
+  },
+  "devDependencies": {
+    "mocha": "^9.1.2"
   }
 }
